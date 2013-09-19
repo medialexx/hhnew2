@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">hhnew2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="Title" parent="@android:style/Theme.Holo">
+        <item name="android:textSize">14sp</item> 
+       <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text" parent="@android:style/Theme.Holo">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Categ" parent="@android:style/Theme.Holo">
+                <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+        
+    </style>
+    <string name="cat">Категория: </string>
+    <string name="refresh">Обновить</string>
+    <string name="exit">Выход</string>
+</resources>
