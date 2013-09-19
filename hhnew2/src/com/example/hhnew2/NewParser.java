@@ -21,7 +21,6 @@ public class NewParser {
 		URL feedUrl = null;
 		try {
 			feedUrl = new URL("http://lenta.ru/rss/last24");
-			//feedUrl = new URL("http://anddev.ru/feed");
 		} catch (MalformedURLException e1) {
 			feedUrl = null;
 		}
